@@ -93,14 +93,15 @@ public class RestaurantOrder {
 
         // Daftar menu
         MenuItem[] menuList = {
-                new MenuItem("nasi", 15000),
-                new MenuItem("ayam", 12000),
-                new MenuItem("rendang", 14000),
+                new MenuItem("nasi", 8000),
+                new MenuItem("ayam", 10000),
+                new MenuItem("rendang", 15000),
                 new MenuItem("Es Teh", 5000),
                 new MenuItem("air mineral", 10000)
         };
 
         Nota nota = new Nota();
+
 
         System.out.println("=== MENU RESTORAN ===");
         for (int i = 0; i < menuList.length; i++) {
@@ -123,3 +124,4 @@ public class RestaurantOrder {
         sc.close(); // MODIFIKASI: Sebaiknya Scanner ditutup di akhir
     }
 }
+//rumus total live tempelet
